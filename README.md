@@ -1,7 +1,7 @@
 # Day Planner 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://www.mit.edu/~amini/LICENSE.md)
 <br>
-This webpage is a day planner that can be used for work, chores, or anything else scheduled in your day. Users can add text to plan out each our of the work day. The hours are color coordinated; the boxes are green if the task is in the future, red if its in the present hour, and gray if it has already passed. Text can be saved to local storage so it will remain if the page is refreshed or the browser is closed. The page displays the date at the top and time is kept using Moment.js.
+This webpage is a day planner that can be used for work, chores, or anything else scheduled in your day. Users can add text to plan out each hour of the work day. The hours are color coordinated; the boxes are green if the task is in the future, red if its in the present hour, and gray if it has already passed. Text can be saved to local storage so it will remain if the page is refreshed or the browser is closed. The page displays the date at the top and time is kept using Moment.js.
   
  ## Built With
 * JavaScript (jQuery)
@@ -36,7 +36,7 @@ console.log(currentHour)
 ```
 
 <br>
-In order to change the text box colors according to the time of day the code contains if statements changing the class of text boxes based on the current hour.
+In order to change the text box colors according to the time of day, the code contains "if" statements changing the class of text boxes based on the current hour.
 <br>
 <br>
 
@@ -59,7 +59,7 @@ In order to change the text box colors according to the time of day the code con
 ```
 
 <br>
-On click events were added to send text to local storage, and info in local storage is displayed back to the page. Local storage is retrieved outside of the functions so it is called immediatley when the page is refreshed or opened.
+On click events were added to send text to local storage. Info in local storage is displayed back to the page. Local storage is retrieved outside of the functions so it is called immediatley when the page is refreshed or opened.
 
 <br>
 <br>  
