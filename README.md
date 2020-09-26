@@ -3,19 +3,18 @@
 <br>
 This webpage is a day planner that can be used for work, chores, or anything else scheduled in your day. Users can add text to plan out each our of the work day. The hours are color coordinated; the boxes are green if the task is in the future, red if its in the present hour, and gray if it has already passed. Text can be saved to local storage so it will remain if the page is refreshed or the browser is closed. The page displays the date at the top and time is kept using Moment.js.
   
-<br>
-
-![exampleGif](images/day-planner.gif)
-
-<br>
-
-## Built With
-* JavaScript
+ ## Built With
+* JavaScript (jQuery)
 * HTML
 * CSS
 
 ## Features
-The main features of the page are the color coordination with the current time, and the ability to save tasks to local storage.
+The main features of the page are the color coordination with the current time, and the ability to save tasks to local storage. 
+<br>
+
+![exampleGif](images/day-planner-new.gif)
+
+<br>
 
 ## Code Example
 Moment.js is called on for the current date and current time.
@@ -62,6 +61,7 @@ In order to change the text box colors according to the time of day the code con
 <br>
 On click events were added to send text to local storage, and info in local storage is displayed back to the page. Local storage is retrieved outside of the functions so it is called immediatley when the page is refreshed or opened.
 
+<br>
 <br>  
 
 ```javaScript
@@ -95,15 +95,15 @@ On click events were added to send text to local storage, and info in local stor
    $("#5").text(localStorage.getItem("5pm"));
 
 ```
-
+<br>
 
 # Deployed Link:
-https://joshglugatch.github.io/geography-quiz/
+https://joshglugatch.github.io/day-planner/
 
 <br>
 
 # Repository Link:
-https://github.com/joshglugatch/geography-quiz
+https://github.com/joshglugatch/day-planner
 
 <br>
 
