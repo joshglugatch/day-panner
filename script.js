@@ -1,7 +1,7 @@
 //date at top
-var time = moment().format("dddd, MMMM Do");
-console.log(time)
-$("#currentDay").append("<p>" + time + "<p>")
+var date = moment().format("dddd, MMMM Do");
+console.log(date)
+$("#currentDay").append("<p>" + date + "<p>")
 
 // current hour variable in 24 hour time
 var currentHour = moment().format("H");
@@ -69,7 +69,6 @@ console.log(currentHour)
    $(".t9").on("click", function(event){
     event.preventDefault();
     localStorage.setItem("9am", $("#9").val())
-    
    })
     
    $(".t10").on("click", function(event){
